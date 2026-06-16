@@ -54,6 +54,10 @@ Rodar em modo de desenvolvimento:
 
 Bash
 npm run dev
+
+⚠️ Nota importante sobre CORS:
+Para que o Frontend se comunique corretamente com a API, certifique-se de que o Financeiro-Core-Service (Backend) esteja configurado para aceitar requisições de origem http://localhost:5173 (ou a porta utilizada pelo Vite). Caso contrário, a comunicação será bloqueada pelo navegador.
+
 📈 Roadmap de Desenvolvimento
 Fase 1: Configuração e Fundação Técnica
 
