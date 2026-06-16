@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import LancamentoService from '../service/LancamentoService';
+import LancamentoService from '../../services/LancamentoService';
 
 const Dashboard = () => {
     const [lancamentos, setLancamentos] = useState([]);
